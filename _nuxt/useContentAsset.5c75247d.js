@@ -1,0 +1,1 @@
+import{c as s}from"./index.87374c17.js";import{_ as o}from"./entry.a98230d7.js";const i=async(t,e="?webp")=>{if(t.startsWith("import:")){const r=t.replace("import:","");return(await o(()=>import(`../assets${r}${e}`),[],import.meta.url)).default}return t},a=(t,e="?webp")=>s(()=>i(typeof t=="string"?t:t(),e));export{a as u};
